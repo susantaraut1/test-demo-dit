@@ -1,0 +1,13 @@
+import time
+
+def surprise_message():
+    print("Get ready for a surprise!")
+    time.sleep(2)  # Wait for 2 seconds
+    print("...")
+    time.sleep(1)  # Wait for 1 second
+    print("I have something to tell you...")
+    time.sleep(2)  # Wait for 2 seconds
+    print("I love you! ❤️")
+
+surprise_message()
+
